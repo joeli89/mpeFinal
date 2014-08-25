@@ -1,0 +1,306 @@
+body {
+	background: #f5f5f5;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+	color: #333333;
+}
+
+input {
+	width: 100%;
+}
+
+
+.homepage {
+	background-image: url(../img/bgImages/home_page4.png);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.navbar {
+	background: #ffffff;
+	border-bottom: solid #ed1c24 2px;
+}
+.navbar ul.nav a {
+	font-family: 'Oswald', sans-serif;
+	color: #333333;
+	font-weight: 300;
+}
+.nav li.active a {
+	color: #333333;
+}
+.navbar-collapse  {
+	background: #ffffff;
+}
+.map {
+	background: url("/img/bgImages/map.png");
+	padding:15% 20%;
+}
+
+.navbar-toggle {
+	color: #000000;
+}
+
+
+/*ANIMATION*/
+
+.delay-1 {
+	 -webkit-animation-delay: 0.5s;
+	 -moz-animation-delay: 0.5s;
+	 animation-delay: 0.5s;
+}
+.delay-2 {
+	 -webkit-animation-delay: 1s;
+	 -moz-animation-delay: 1s;
+	 animation-delay: 1s;
+}
+.delay-3 {
+	 -webkit-animation-delay: 1.5s;
+	 -moz-animation-delay: 1.5s;
+	 animation-delay: 1.5s;
+}
+.delay-4 {
+	 -webkit-animation-delay: 2s;
+	 -moz-animation-delay: 2s;
+	 animation-delay: 2s;
+}
+.delay-5 {
+	 -webkit-animation-delay: 2.5s;
+	 -moz-animation-delay: 2.5s;
+	 animation-delay: 2.5s;
+}
+.delay-6 {
+	 -webkit-animation-delay: 3s;
+	 -moz-animation-delay: 3s;
+	 animation-delay: 3s;
+}
+
+.duration-1 {
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	animation-duration: 5s;
+}
+
+.navbar-collapse ul .on a{
+	border-top: solid red 2px;
+	color: #ed1c24;
+}
+
+/*COMPANY*/
+
+#company {
+	margin: 5% 0;
+}
+#companyProfile {
+	margin: 5% 0;
+}
+#company img {
+	border: solid #333333 5px; 
+}
+
+
+.alert {
+	text-align: center;
+	width: 88%;
+}
+
+#company ul {
+	padding-top: 20px;
+}
+
+
+
+
+.products {
+		margin: 5% 0;
+}
+.product {
+	padding-left: 0px;
+}
+.product h3 {
+	text-transform: none;
+}
+
+/*CONTACT*/ 
+
+.contact-header {
+	padding-bottom: 20px;
+}
+.addresses {
+	padding-bottom: 5%;
+	padding-top: 40px;
+}
+.contact {
+	padding: 80px 0 80px 0;
+}
+
+
+
+
+
+
+
+
+.heading h1 {
+	font-family: 'Playball', sans-serif;
+   	font-weight: 300;
+   	font-size: 45px;
+	text-transform: none;
+	color: #fff;
+	text-shadow: 1px 1px 6px #000000;
+}
+.ticker {
+	height: 55px;
+}
+.heading img {
+	width: 400px;
+	-ms-interpolation-mode: bicubic;
+	margin-bottom: 20px;
+}
+.heading a {
+	background: #3d3d43;
+}
+
+.breadcrumb {
+	background-color: transparent;
+	font-weight: 100;
+}
+
+.navbar-brand img {
+	max-width: 14%;
+}
+.navbar-header {
+	height: 0;
+}
+
+
+.hero {
+	background-image: url(../img/bgImages/trad_1.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.hero2 {
+	background-image: url(../img/bgImages/Ultra_White_Gloss_and_Light_Pacific_Walnut.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.hero3 {
+	background-image:url(../img/bgImages/project2.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.hero4 {
+	background-image: url(../img/bgImages/trad_3.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+/*PORTFOLIO*/
+
+#myPortfolio li a img {
+	border: solid #ffffff 5px;
+}
+
+
+.portfolio-title {
+	font: 80px;
+}
+
+.modal {
+	padding: 0%;
+}
+.modal img {
+	padding-bottom: 0%;
+}
+
+.modal button.close, .modal button.close:hover {
+	margin: 0;
+	color: #ffffff;
+	border: none;
+	padding: 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 15px;
+	background: transparent;
+	text-shadow: none;
+	margin-bottom: 20px;
+}
+
+
+/*CONTACT*/
+
+.contact {
+	background-color: #f1f1f1;
+}
+
+/*THANKS ALET BOX*/
+
+.thanks-message {
+
+	text-align: center;
+}
+.thanks-message h2 {
+	font-size: 20px;
+
+}
+
+
+
+
+
+ @media (max-width: 768px) {
+
+	.logo {
+		position: absolute;
+
+			}
+
+	.heading h1 {
+		font-size: 30px;
+	}
+
+ }
+
+  @media (max-width: 550px) {
+ 	.navbar-brand img {
+		max-width: 100px;
+	}
+
+	.heading h1 {
+		font-size: 25px;
+	}
+	.navbar-collapse ul .on a {
+		border-top: none;
+	}
+
+ }
+
+   @media (max-width: 450px) {
+
+	.heading img {
+		width: 80%;
+	}
+
+ }
+
+
+
+
